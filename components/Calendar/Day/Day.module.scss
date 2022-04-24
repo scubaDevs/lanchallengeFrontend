@@ -1,0 +1,43 @@
+.mainContainer{
+     
+display: flex; 
+flex-direction: column; 
+border-width:thick;
+border: solid;
+border-color: #E5E7EB;
+flex-direction: center;
+align-items: center; 
+
+    .headerContainer{
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        
+    }
+    .paragraphonecontainer{
+        
+        text-align: center;
+        font-size: 12px;
+        font-weight: 500;
+        text-decoration: underline;
+
+    }
+    .paragraphtwocontainer{
+            
+       text-align: center;
+       font-size: 12px;
+    }
+    .todayContainer{
+       
+       font-size: 12px;
+       text-align: center;
+       background-color: #2563EB; 
+       color: #ffffff; 
+       padding:12px;
+       border-radius: 50%;
+       
+       
+
+    }
+
+}
